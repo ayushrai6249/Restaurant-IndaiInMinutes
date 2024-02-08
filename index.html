@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City swift</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Protest+Strike&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="home"></div>
+    <section class="navigationBar">
+        <div class="navigation container">
+            <div class="logoContainer">
+                <img src="images/logo.png" alt="LOGO">
+                <p class="navText">IndiaInMinutes</p>
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#home" id="first">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#develoer">Developer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navIcon">
+                <label id="icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="container"  >
+            <div class="hero">
+                <div class="heroImage">
+                    <img src="images/heroImage.png" alt="Indian food">
+                </div>
+                <div class="heroText">
+                    <div class="tag">
+                        30% off on order above 1000
+                    </div>
+                    <h1>Indulge Instantly: Click, Order, Delight!</h1>
+                    <p>Experience instant gratification with our seamless online ordering! Indulge instantly in a world
+                        of delights with just a click – savor the convenience, relish the flavors, and let joy be
+                        delivered to your doorstep!</p>
+                    <button class="order">Order Now</button>
+                </div>
+            </div>
+            <div class="features">
+                <div class="feature f1">
+                    <img src="images/discount.png" alt="Discount image">
+                    <div class="featureContent">
+                        <h3>Discount offers</h3>
+                        <p>Upto 30% off on orders<br>above 1000 rupee</p>
+                    </div>
+                </div>
+                <div class="feature f2">
+                    <img src="images/fresh.png" alt="Fresh food image">
+                    <div class="featureContent">
+                        <h3>Fresh food</h3>
+                        <p>Get fresh and healty food<br>at your door step.</p>
+                    </div>
+                </div>
+                <div class="feature f3" id="menu">
+                    <img src="images/delivery.png" alt="Delivery image">
+                    <div class="featureContent">
+                        <h3>Free Home Delivery</h3>
+                        <p>Get free delivery at your door<br>within 20 minutes of order</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="menuHeading" >
+            <h2>MENU</h2>
+        </div>
+        <section class="menu" >
+            <div class="card">
+                <div class="imageContainer">
+                    <img src="images/paneer.webp" alt="Paneer">
+                </div>
+                <div class="textContainer">
+                    <h3>Panner</h3>
+                    <br>
+                    <h4>Rs 300 Rs Half</h4>
+                    <p>Fresh Kadhai Panner</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageContainer">
+                    <img src="images/roti.jpg" alt="Paneer">
+                </div>
+                <div class="textContainer">
+                    <h3>Roti</h3>
+                    <br>
+                    <h4>Rs 15 Per Piece</h4>
+                    <p>Fresh Tava Roti</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageContainer">
+                    <img src="images/dal.jpg" alt="Paneer">
+                </div>
+                <div class="textContainer">
+                    <h3>Tadka Dal</h3>
+                    <br>
+                    <h4>Rs 200 Half</h4>
+                    <p>Fresh Tadka Dal with Ghee</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageContainer">
+                    <img src="images/gulabjamun.jpg" alt="Paneer">
+                </div>
+                <div class="textContainer">
+                    <h3>Gulab Jamun</h3>
+                    <br>
+                    <h4>Rs 20 Per Piece</h4>
+                    <p>Fresh Gulab Jamun</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <div class="footerContainer container">
+                <div class="footerLogo">
+                    <img src="images/logo.png" alt="Logo">
+    
+                </div>
+                <div class="mainLinks">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#">Order Traking</a></li>
+                        <li><a href="#">New Orders</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">News & Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="mainLinks">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="mainLinks">
+                    <h3>Join Our News Letter</h3>
+                    <input type="email" placeholder="Enter your Email here">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Follow us</h3>
+                    <div class="iconContainer">
+                        <div class="icon">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
